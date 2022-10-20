@@ -1,0 +1,6 @@
+n,m = map(int,input().split())
+arr1= set(map(int,input().split()))
+arr2=set(map(int,input().split()))
+a =len(arr2-arr1)
+b= len(arr1-arr2)
+print(a+b)
